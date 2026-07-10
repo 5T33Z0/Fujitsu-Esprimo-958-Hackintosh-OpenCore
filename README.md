@@ -270,11 +270,7 @@ For more detailed instuctions, check my [Guide](https://github.com/5T33Z0/OCLP4H
 
 ### Enabling Audio in macOS Tahoe
 
-There are 2 options to enable audio in macOS Tahoe:
-
-**Option 1**: Install VoodooHDA-Tahoe ([**Download**](https://github.com/5T33Z0/Fujitsu-Esprimo-Q958-Hackintosh-OpenCore/raw/refs/heads/main/pkg/VoodooHDA-Tahoe.pkg)), allow the extension to load, reboot and select an outupt from System Settings > Sound.
-
-**Option 2**: Apply Root Patches with OCLP Mod (as explained previously). For more details about see &rarr; [Re-enabling Audio in macOS Tahoe beta 2+](https://github.com/5T33Z0/OCLP4Hackintosh/blob/main/Enable_Features/Audio_Tahoe.md).
+There are 3 options to enable audio in macOS Tahoe see &rarr; [Re-enabling Audio in macOS Tahoe beta 2+](https://github.com/5T33Z0/OCLP4Hackintosh/blob/main/Enable_Features/Audio_Tahoe.md) for details.
 
 ### Modify Power Management Settings
 Open Terminal and enter the following commands, to adjust Power Management. If you don't want to use Hibernation, use `hibernatemode 3` instead:
