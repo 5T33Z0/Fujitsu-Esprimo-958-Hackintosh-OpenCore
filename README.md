@@ -229,7 +229,12 @@ Continue with the next section, "Disable CFG Lock"
 This section contains post-install-measures to enable features, work around issues and some optional settings.
 
 ### Disable Gatekeeper
-Disable Gatekeeper since it blocks running 3rd party scripts and apps from github etc. To do so, enter `sudo spctl --master-disable` in Terminal. Disabling Gatekeeper in macOS Sequoia and Tahoe requires [additional steps](https://github.com/5T33Z0/OCLP4Hackintosh/tree/main/Guides/Disable_Gatekeeper.md).
+Disable Gatekeeper since it blocks running 3rd party scripts and apps from github etc. 
+To do so, open Terminal and enter:
+```
+sudo spctl --master-disable
+```
+Disabling Gatekeeper in macOS Sequoia and Tahoe requires [additional steps](https://github.com/5T33Z0/OCLP4Hackintosh/tree/main/Guides/Disable_Gatekeeper.md).
 
 ### Using `AirportItlwm` instead of `Itlwm`in macOS Sequoia/Tahoe (optional)
 
